@@ -39,8 +39,8 @@ function setup()
     noStroke()
     pushStyle()
     
-    --sprite("iOS Button Pack:Blue Redo Button")
-    beetle = SpriteObject("iOS Button Pack:Blue Redo Button", vec2(WIDTH/2, HEIGHT/2 +200))
+    --sprite("Project:Robot")
+    beetle = SpriteObject("Project:Robot", vec2(WIDTH/2, HEIGHT/2 +200))
     planet = SpriteObject("iOS Button Pack:Red Redo Button", vec2(WIDTH/2, HEIGHT/2 - 100))
     aButton = Button("iOS Button Pack:Green Redo Button", vec2(150, 330))
 end
